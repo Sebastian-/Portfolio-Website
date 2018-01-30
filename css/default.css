@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    text-align: right;
+}
+
+.rightHeading {
+    display: inline-block;
+    text-align: right;
+    width: 75%;
+    vertical-align: middle;
+}
+
+.logoImage {
+    width: 25%;
+}
+
+.project-card {
+    display: inline-block;
+    position: relative;
+	width: 300px;
+    height: 400px;
+	padding:5px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+}
+
+.project-card a span {
+    position: absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
