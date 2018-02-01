@@ -1,11 +1,16 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    font-family: sans-serif;
+    margin: 0;
+    font-family: 'Roboto';
 }
 
 img {
     max-width: 100%;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
 }
 
 header {
@@ -15,19 +20,25 @@ header {
     padding: 10px;
 }
 
-h1 {
-    text-align: right;
-}
-
-.rightHeading {
-    display: inline-block;
+#header-right {
     text-align: right;
     width: 75%;
-    vertical-align: middle;
 }
 
-.logoImage {
+#logo-image {
     width: 25%;
+}
+
+#header-name {
+    font-size: 7vh;
+}
+
+#header-subheading {
+    font-size: 3vh;
+}
+
+#banner {
+    width: 100%;
 }
 
 .project-card {
