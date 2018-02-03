@@ -18,6 +18,7 @@ header {
     display: flex;
     align-items: center;
     padding: 10px;
+    flex-flow: wrap;
 }
 
 #header-right {
@@ -56,6 +57,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0px;
+    flex-flow: wrap;
 }
 
 .project-card {
