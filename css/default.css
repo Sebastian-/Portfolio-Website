@@ -32,12 +32,13 @@ header {
 }
 
 #header-name {
-    font-size: 7vh;
+    font-size: 6.75vw;
 }
 
 #header-subheading {
-    font-size: 3vh;
+    font-size: 3.25vw;
 }
+
 
 #header-rule {
     margin: 2vh auto;
@@ -49,9 +50,16 @@ header {
 }
 
 #projects-heading {
-    font-size: 5vh;
+    font-size: 5vw;
     color: #7d97ad;
 }
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    #header-name {font-size: 81px}
+    #header-subheading {font-size: 39px}
+    #projects-heading {font-size: 60px}
+} 
 
 #projects-section {
     width: 100%;
@@ -65,6 +73,7 @@ header {
     display: inline-block;
 	width: 300px;
 	padding: 5px;
+    margin: 15px;
     background-color: #fff;
     transition: all 0.3s ease-in-out;
 }
