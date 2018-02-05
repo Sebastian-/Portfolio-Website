@@ -53,13 +53,6 @@ header {
     color: #7d97ad;
 }
 
-/* Desktop */
-@media screen and (min-width: 1200px) {
-    #header-name {font-size: 81px}
-    #header-subheading {font-size: 39px}
-    #projects-heading {font-size: 60px}
-} 
-
 #projects-section {
     width: 100%;
     display: flex;
@@ -116,6 +109,14 @@ footer {
     justify-content: space-evenly;
 }
 
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    #header-name {font-size: 81px}
+    #header-subheading {font-size: 39px}
+    #projects-heading {font-size: 60px}
+} 
+
+/* Mobile */
 @media screen and (max-width: 676px) {
     footer{flex-direction: column;}
 }
