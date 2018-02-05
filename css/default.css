@@ -39,7 +39,6 @@ header {
     font-size: 3.25vw;
 }
 
-
 #header-rule {
     margin: 2vh auto;
     border-top: 3px solid #7d97ad;
@@ -108,4 +107,15 @@ header {
     top:0;
     left: 0;
     z-index: 1;
+}
+
+footer {
+    background-color: #2d3c49;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 676px) {
+    footer{flex-direction: column;}
 }
