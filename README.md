@@ -5,3 +5,4 @@ A responsive website showcasing many of the repositories on this GitHub account.
 ## Relevant Technology
 
 * HTML/CSS
+* Reponsive elements: Flexbox, srcset
